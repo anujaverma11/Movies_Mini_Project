@@ -1,7 +1,10 @@
 # Calling Class
 
+
 import media
 import fresh_tomatoes
+
+# Using Class Movie to initiate objects: toy_story, minions, tangled, frozen, theJungleBook and findingNemo
 
 toy_story = media.Movie("Toy Story",
                         "A story of a boy and his toys that come to life",
@@ -33,8 +36,9 @@ findingNemo = media.Movie("Finding Nemo",
                       "https://upload.wikimedia.org/wikipedia/en/2/29/Finding_Nemo.jpg",
                       "https://www.youtube.com/watch?v=2zLkasScy7A")
 
-tangled.show_trailer()
+# tangled.show_trailer()
 moview = [toy_story, minions, tangled, frozen, theJungleBook, findingNemo]
 fresh_tomatoes.open_movies_page(moview)
 
+# this is to print the Docstrings from class Media
 print(media.Movie.__doc__)
