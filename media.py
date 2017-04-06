@@ -3,7 +3,7 @@
 # """ quotes represents class documentation, which can be description of class or other information about the class.
 # Movie.__doc__
 # Class Variables are in all caps for e.g. VALID_RATINGS
-
+# As per google style guide first letter of class should be capital
 
 import webbrowser
 
