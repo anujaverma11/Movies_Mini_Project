@@ -33,8 +33,8 @@ findingNemo = media.Movie("Finding Nemo",
                       "https://upload.wikimedia.org/wikipedia/en/2/29/Finding_Nemo.jpg",
                       "https://www.youtube.com/watch?v=2zLkasScy7A")
 
-# tangled.show_trailer()
-# moview = [toy_story, minions, tangled, frozen, theJungleBook, findingNemo]
-# fresh_tomatoes.open_movies_page(moview)
+tangled.show_trailer()
+moview = [toy_story, minions, tangled, frozen, theJungleBook, findingNemo]
+fresh_tomatoes.open_movies_page(moview)
 
 print(media.Movie.__doc__)
